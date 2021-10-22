@@ -29,14 +29,14 @@ public class Regex {
             System.out.println("Pattern not matched");*/
 
 
-        Pattern p2 = Pattern.compile("[A-Za-z]+");
+        Pattern p2 = Pattern.compile("[A-Za-z]{3,6}");
         Matcher m2 = p2.matcher("Chandan");
         if (m2.find())
             System.out.println("2.Pattern matched");
         else
             System.out.println("2.Pattern not matched");
 
-        Pattern p3 = Pattern.compile("[A-Z]+"); // atleast1
+        Pattern p3 = Pattern.compile("[a-z]+"); // atleast1
         Matcher m3 = p3.matcher("CHANDAN");
         if (m3.find())
             System.out.println("3.Pattern matched");
