@@ -1,4 +1,4 @@
-public class LambdaExBL {
+class LambdaExBL {
     public static void main(String[] args) {
 
         Interf interf = new Interf() {
